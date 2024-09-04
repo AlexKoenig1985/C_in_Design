@@ -10,6 +10,7 @@ int main()
     for(int mulFac =1; mulFac <= 10; mulFac++)
     {
         mul = num * mulFac;
-        printf("%d*%d: %d \n", num, mulFac, mul);
+        printf("%d * %d : %d \n", num, mulFac, mul);
     }
+    return 0;
 }
